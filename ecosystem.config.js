@@ -12,7 +12,7 @@ module.exports = {
       repo : 'https://github.com/paopt/cicd-node-demo',
       path : '/var/www/cicd-node',
       'pre-deploy-local': '',
-      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production',
+      'post-deploy' : 'npm install && npm run start',
       'pre-setup': ''
     }
   }

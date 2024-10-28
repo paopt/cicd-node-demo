@@ -4,7 +4,7 @@
   "description": "部署node服务",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && pm2 start"
+    "start": "npm install && pm2 start ecosystem.config.js --env production"
   },
   "keywords": [],
   "author": "",
